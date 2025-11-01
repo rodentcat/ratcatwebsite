@@ -1,0 +1,107 @@
+body{
+	background-image: url("img/tile_bg.png");
+	background-color: #141213;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	width: 800px;
+	min-height: 800px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;}
+a {
+	font-family: Verdana;
+	color: #FFFFFF;}
+p{
+	font-family: Verdana;
+	color: #FCB0B8;
+	padding: 20px;
+	text-align: left;}
+ul{
+	font-family: Verdana;
+	color: #FFFFFF;
+	padding: 15px;
+	padding-inline-start: 110px;
+	margin-top:0px;
+	text-align: left;}
+p.centerf{
+	font-family: Verdana;
+	color: #9E7676;
+	text-align: center;}
+p.center{
+	font-family: Verdana;
+	text-align: center;}
+
+.albumcontainer{
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 50px;
+}
+.audiopreview{
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
+}
+
+.albumleft{
+	font-family: Verdana;
+	float: left;
+	max-width: 250px;
+	color: #FCB0B8;
+	padding: 50px;
+	text-align: left;
+	min-height: 500px;
+}
+.albumright{
+	font-family: Verdana;
+	float: right;
+	max-width: 250px;
+	color: #FCB0B8;
+	padding: 50px;
+	text-align: left;
+	min-height: 500px;
+}
+.animleft{
+	font-family: Verdana;
+	float: left;
+	max-width: 250px;
+	color: #FCB0B8;
+	padding: 50px;
+	text-align: left;
+	min-height: 300px;
+}
+.animright{
+	font-family: Verdana;
+	float: right;
+	max-width: 250px;
+	color: #FCB0B8;
+	padding: 50px;
+	text-align: left;
+	min-height: 300px;
+}
+.albumcenter{
+	font-family: Verdana;
+	float: center;
+	max-width: 250px;
+	color: #FCB0B8;
+	padding: 50px;
+	text-align: left;
+	min-height: 500px;
+}
+h1, h2{
+	font-family: Verdana;
+	color: #FCB0B8;
+	text-align: center;}
+
+
+.webzone {
+    margin-top: -20px;
+    margin-left: -5px;
+}
+
+.header{
+	border: 0px;
+	}

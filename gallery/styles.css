@@ -1,0 +1,80 @@
+body{
+	background-image: url("img/tile_bg.png");
+	background-color: #000000;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	width: 800px;
+	min-height: 800px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;}
+a {
+	font-family: Verdana;
+	color: #911717;}
+p{
+	font-family: Verdana;
+	color: #FFFFFF;
+	padding: 50px;
+	text-align: left;}
+ul{
+	font-family: Verdana;
+	color: #911717;
+	padding: 15px;
+	padding-inline-start: 110px;
+	margin-top:0px;
+	text-align: left;}
+p.centerf{
+	font-family: Verdana;
+	color: #911717;
+	text-align: center;}
+p.center{
+	font-family: Verdana;
+	text-align: center;}
+
+
+h1, h2{
+	font-family: Verdana;
+	color: #ffffff;
+	text-align: center;}
+
+
+.webzone {
+    margin-top: -20px;
+    margin-left: -5px;
+}
+
+.header{
+	border: 0px;
+	}
+
+.albumcontainer{
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 50px;
+	}
+
+.albumleft{
+	font-family: Verdana;
+	float: left;
+	max-width: 250px;
+	color: #FFFFFF;
+	padding: 50px;
+	text-align: center;
+	min-height: 500px;
+	}
+.fullimage{
+    width:800px;
+    height: 588px;
+	}
+.albumright{
+	font-family: Verdana;
+	float: right;
+	max-width: 250px;
+	color: #FFFFFF;
+	padding: 50px;
+	text-align: center;
+	min-height: 500px;
+	}
